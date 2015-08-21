@@ -15,15 +15,14 @@ describe 'Music Library' do
   end
 
   describe '#list_artists' do
-    it "prints out all the artists in the library using the each method" do
+    it "prints out all the artists in the library using the each_key method" do
       output = capture_stdout { list_artists(@library) }
-      binding.pry
-      expect(list_artists(@library)).to eq( "taylor_swift\nsilento\nselena_gomez\nmark_ronson\nandy_grammer\nmaroon_five\n")
+      expect(output).to eq( "taylor_swift\nsilento\nselena_gomez\nmark_ronson\nandy_grammer\nmaroon_five\n")
     end
   end
 
   describe '#list_songs' do
-    it 'lists all the songs in the music library' do
+    it 'lists all the songs in the music library using the each_value method' do
       output = capture_stdout { list_songs(@library) }
       expect(output).to eq("Style\nWatch Me\nGood For You\nUptown Funk!\nHoney I'm Good\nSugar\n")
     end
