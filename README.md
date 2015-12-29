@@ -1,7 +1,7 @@
 # Music Library
 <img src="https://s3.amazonaws.com/after-school-assets/music.gif"width="300" hspace="10" align="right">
 
-We all take how our music library for granted. It just works, right? We can add artists and songs, we can make playlists, and we can delete songs. We just assume it will always work the same way every single time and we don't have to think about the rest.
+We all take how our music library works for granted. It just works, right? We can add artists and songs, we can make playlists, and we can delete songs. We just assume it will always work the same way every single time and we don't have to think about the rest.
 
 But if we take a second to think about it, wouldn't a hash make sense? Every artist in your library would be a key, and the value would be their songs. 
 
@@ -17,7 +17,7 @@ Define a method named `list_songs`. This method should use the `each_value` meth
 
 ### Step 3:
 
-Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash. This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
+Define a method `delete_artist`. This method should delete the key-value pair from the hash based on the artist and return the updated hash. This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
 
 ### Step 4:
@@ -29,3 +29,5 @@ Define a method `add_song_and_artist`. This method should add a new artist and s
 
 
 
+
+<a href='https://learn.co/lessons/hs-intro-software-engineering-music-library' data-visibility='hidden'>View this lesson on Learn.co</a>
