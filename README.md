@@ -30,4 +30,4 @@ This method should add a new artist and song (key value pair) to the hash and re
 
 
 
-<a href='https://learn.co/lessons/hs-intro-software-engineering-music-library' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-intro-software-engineering-music-library' title='Music Library'>Music Library</a> on Learn.co and start learning to code for free.</p>
